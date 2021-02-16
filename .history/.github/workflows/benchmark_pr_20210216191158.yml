@@ -52,7 +52,7 @@ on:
           - name: Compare and comment
         # Use the action defined in this repository
             uses: ./
-            with:
+           with:
           # we pass two arguments:
           # where to find the current JSON file
               json_file: "benchmark.json"
