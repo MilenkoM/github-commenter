@@ -8,7 +8,7 @@ on:
       - "main" # replace with however your default branch is named
 
 # A workflow consists of multiple jobs
-  jobs:
+jobs:
   benchmark:
     runs-on: ubuntu-latest
     name: Run the benchmarks
